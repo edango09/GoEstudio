@@ -11,9 +11,13 @@ func main() {
 			fmt.Println(i)
 		}
 	}
+	bar()
 }
 func foo() {
 	fmt.Println("I'm in Foo")
+}
+func bar(){
+	fmt.Println("Aca termina el programa")
 }
 
 //Control Flow:
